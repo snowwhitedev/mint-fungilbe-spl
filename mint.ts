@@ -25,7 +25,7 @@ console.log(`creating token with name - ${process.env.TOKEN_NAME}, symbol - ${pr
 const metadata = {
     name: process.env.TOKEN_NAME,
     symbol: process.env.TOKEN_SYMBOL,
-    uri: process.env.RPC_ENDPOINT
+    uri: process.env.IPFS_URL_OF_METADATA
 };
 
 const mint = generateSigner(umi);
